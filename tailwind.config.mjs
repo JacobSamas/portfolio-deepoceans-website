@@ -8,8 +8,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        deepOcean: {
+          DEFAULT: "#002B5B",
+          light: "#005A9C",
+          dark: "#001F3F",
+        },
       },
     },
   },
